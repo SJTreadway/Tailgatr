@@ -21,20 +21,20 @@ function findUser(arr, email) {
           $stateProvider
             .state('home', {
               url: '/home',
-              templateUrl: '../tailgatr/home/homeTmpl.html',
+              templateUrl: '/home/homeTmpl.html'
             })
             .state('reserve', {
               url: '/reserve',
-              templateUrl: '../tailgatr/reserve/reserveTmpl.html',
+              templateUrl: '/reserve/reserveTmpl.html',
               controller: 'reserveCtrl'
             })
             .state('schedule', {
               url: '/schedule',
-              templateUrl: '../tailgatr/schedule/scheduleTmpl.html',
+              templateUrl: '/schedule/scheduleTmpl.html'
             })
             .state('contact', {
               url: '/contact',
-              templateUrl: '../tailgatr/contact/contactTmpl.html',
+              templateUrl: '/contact/contactTmpl.html'
             })
         })
 })();
